@@ -1,0 +1,22 @@
+print("exceptable bases 2,7,10,16")
+
+n=input("please enter a number :")
+
+b=input("please the base of the entered number :")
+
+c=input("please enter the base conversion :")
+  
+
+if b == 10: n=int(n) 
+else:
+   k=int(b) 
+   n=int(n,k)
+
+   c=int(c)
+if c == 2: print(bin(n))
+
+elif c==16: print(hex(n))
+
+elif c == 7: print(oct(n))
+
+else: print(n)

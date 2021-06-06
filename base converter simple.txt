@@ -1,0 +1,26 @@
+print("exceptable bases 2,7,10,16")
+
+n=input("please enter a number :")
+
+b=input("please the base of the entered number :")
+
+c=input("please enter the base conversion :")
+  
+
+if b == 10: n=int(n) 
+else: n=int(n,k)
+   
+b=int(b) 
+
+c=int(c)
+
+if c == 10:#from base(n) to d 
+
+print(n)
+
+else: #from d to base(n)
+  
+while true
+
+if n/b == 0: break
+q=q+(n/b)
